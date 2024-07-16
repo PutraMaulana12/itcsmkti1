@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumpulan Media Sosial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            animation: slideIn 1s ease-in-out;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .social-links {
+            list-style: none;
+            padding: 0;
+        }
+        .social-links li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+            transition: transform 0.3s ease;
+        }
+        .social-links li:hover {
+            transform: scale(1.05);
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #0073e6;
+            font-size: 18px;
+            margin-left: 10px;
+        }
+        .social-links img {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CONTACT</h1>
+        <ul class="social-links">
+        
+            <li>
+                <a href="https://www.instagram.com/itclubsmkti" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+                    @itclubsmkti
+                </a>
+            </li>
+            <li>
+                <a href="https://wa.me/6281910260718" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+                    081910260718
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
